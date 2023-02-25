@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can add new items - 2 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "image": "",
+      "name": "Prinplup Sitting Cuties Plush",
+      "price": 10.99,
+    },
+  ],
+}
+`;
+
+exports[`can add new items - 2 2`] = `
+Array [
+  Object {
+    "op": "add",
+    "path": "/items/0",
+    "value": Object {
+      "image": "",
+      "name": "Piplup Sitting Cuties Plush",
+      "price": 10.99,
+    },
+  },
+  Object {
+    "op": "replace",
+    "path": "/items/0/name",
+    "value": "Prinplup Sitting Cuties Plush",
+  },
+]
+`;
+
+exports[`can add new items 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "image": "",
+      "name": "Prinplup Sitting Cuties Plush",
+      "price": 10.99,
+    },
+  ],
+}
+`;
+
+exports[`can add new items 2`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "image": "",
+        "name": "Piplup Sitting Cuties Plush",
+        "price": 10.99,
+      },
+    ],
+  },
+  Object {
+    "items": Array [
+      Object {
+        "image": "",
+        "name": "Prinplup Sitting Cuties Plush",
+        "price": 10.99,
+      },
+    ],
+  },
+]
+`;
